@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Food Order</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <h1>เมนูร่อยอร่อยจาก [ร้านคุณบ้างยัง]</h1>
+        <p>สแกน QR Code เพื่อสั่งอาหารได้เลย!</p>
+
+        <div class="main-content">
+            <div class="menu-section">
+                <h2>เมนูอาหาร</h2>
+                <div id="categories-container" class="categories-tabs">
+                    </div>
+                <div id="menu-items-container" class="menu-grid">
+                    </div>
+            </div>
+
+            <div class="cart-section">
+                <h2>ตะกร้าสินค้า</h2>
+                <ul id="cart-list" class="cart-list">
+                    <p>ไม่มีสินค้าในตะกร้า</p>
+                </ul>
+                <div class="cart-summary">
+                    <p>ยอดรวม: <span id="total-price">0.00</span> บาท</p>
+                    <button id="send-order-btn">ยืนยันการสั่งซื้อ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [ร้านคุณบ้างยัง] สงวนลิขสิทธิ์</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
