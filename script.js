@@ -1,6 +1,6 @@
 // qr_food_order_frontend/script.js
 
-const backendUrl = 'https://render.com/docs/web-services#port-binding'; // URL ของ Backend Server (ต้องตรงกับ server.js)
+const backendUrl = 'https://qr-food-order-backend-2.onrender.com'; // URL ของ Backend Server (ต้องตรงกับ server.js)
 let menuData = []; // เก็บข้อมูลหมวดหมู่และสินค้าทั้งหมดจาก Backend
 let cart = []; // เก็บรายการสินค้าในตะกร้า
 
